@@ -1,24 +1,22 @@
 # Skype
 
-TODO: Write a gem description
+Make Skype calls from the command line on OS X!
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'skype'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
     $ gem install skype
+
+# Setup
+
+1. Quit Skype
+2. Run `exsc <your-skype-name>`
+3. Launch Skype again
 
 ## Usage
 
-TODO: Write usage instructions here
+```sh
+% skype call <friend>
+```
 
 ## Contributing
 

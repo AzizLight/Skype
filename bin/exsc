@@ -1,0 +1,9 @@
+#!/bin/sh
+
+sqlite3 -batch "$HOME/Library/Application Support/Skype/$1/main.db" <<EOF
+.mode csv
+.output $HOME/.skyperc
+select skypename,displayname from Contacts;
+.output stdout
+.exit
+EOF
