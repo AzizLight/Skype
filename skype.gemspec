@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'skype/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "skype"
+  spec.name          = "skypecall"
   spec.version       = Skype::VERSION
   spec.authors       = ["Aziz Light"]
   spec.email         = ["aziz@azizlight.me"]
